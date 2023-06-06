@@ -1,0 +1,44 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.cta {
+    justify-content: center;
+    gap: 1.2rem;
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+/* Header Social */
+
+.header_social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+/* ====================== Media Query (Medium Devices) ============================= */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+
+/* ====================== Media Query (Small Devices) ============================= */
+
+@media screen and (max-width: 600px) {
+    header {height: 100vh;}
+}
